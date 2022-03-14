@@ -4,7 +4,22 @@
     .img5{
             background-image: url(./images/lagos.jpeg);
             min-height: 400px;
-            background-size: contain;
+            background-size: cover;
+            position: relative;
+            opacity: 0.70;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+        }
+    }
+
+
+
+    @media (min-width:768px){
+        .img5{
+            background-image: url(./images/lagos.jpeg);
+            min-height: 1000px;
+            background-size: cover;
             position: relative;
             opacity: 0.70;
             background-position: center;

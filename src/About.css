@@ -1,17 +1,17 @@
 @media (min-width:320px) {
     .img4{
         background-image: url(./images/lagos3mb.jpeg);
-        min-height: 1000px;
-        background-size: contain;
+        min-height: 500px;
+        background-size: cover;
         position: relative;
         opacity: 0.70;
         background-position: center;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
 }
 
-@media (min-width:1440px) {
+@media (min-width:768px) {
     .img4{
         background-image: url(./images/lagos3mb.jpeg);
         min-height: 1000px;
