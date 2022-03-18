@@ -1,4 +1,5 @@
 import React from 'react'
+import Backtotop from './Backtotop'
 import './Main.css'
 
 
@@ -83,7 +84,7 @@ const Main = () => {
 
 
 
-
+            <Backtotop/>
     </div>
   )
 }

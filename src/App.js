@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import Main from './Main';
 import About from './About';
 import Contact from './Contact';
+import Backtotop from './Backtotop';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 function App() {
